@@ -1,0 +1,10 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+
+pkgname=
+pkgver=
+pkgrel=1
+pkgdesc=''
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=()

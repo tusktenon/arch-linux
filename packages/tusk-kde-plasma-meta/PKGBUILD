@@ -6,9 +6,9 @@ pkgname=tusk-kde-plasma-meta
 pkgver=5.21
 pkgrel=1
 pkgdesc='Meta-package to install KDE Plasma'
-arch=(any)
-license=(None)
-url='https://www.archlinux.org/'
+arch=('any')
+license=('GPL')
+url='https://github.com/tusktenon/arch-linux'
 depends=(
     bluedevil
     drkonqi
