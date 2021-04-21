@@ -1,0 +1,46 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+# Created: 2021-04-21
+
+# Based on Arch-Extra kde-applications-meta 20.12-4
+
+pkgname='tusk-kde-applications-meta'
+pkgver=20.12
+pkgrel=1
+pkgdesc='Meta-package for KDE applications'
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=(
+    ark
+    dolphin
+    gwenview
+    kcalc
+    kcharselect
+    kcolorchooser
+    kcron
+    kdf
+    kfind
+    khelpcenter
+    kmag
+    konsole
+    kompare
+    ksystemlog
+    kwrite
+    okular
+    partitionmanager
+    print-manager
+    spectacle
+    sweeper
+
+    # Optional dependencies
+    audiocd-kio
+    ffmpegthumbs
+    kde-cli-tools
+    keditbookmarks
+    kdegraphics-thumbnailers
+    # kipi-plugins
+    markdownpart
+    packagekit-qt5
+    # purpose
+    # svgpart
+)
