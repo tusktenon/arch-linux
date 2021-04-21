@@ -11,28 +11,28 @@ arch=('any')
 license=('GPL')
 url='https://github.com/tusktenon/arch-linux'
 depends=(
-autoconf
-automake
-binutils
-bison
-fakeroot
-file
-findutils
-flex
-gawk
-gcc
-gettext
-grep
-groff
-gzip
-libtool
-m4
-make
-pacman
-patch
-pkgconf
-sed
-sudo
-texinfo
-which
+    autoconf
+    automake
+    binutils
+    bison
+    fakeroot
+    file
+    findutils
+    flex
+    gawk
+    gcc
+    gettext
+    grep
+    groff
+    gzip
+    libtool
+    m4
+    make
+    pacman
+    patch
+    pkgconf
+    sed
+    sudo
+    texinfo
+    which
 )
