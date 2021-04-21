@@ -1,0 +1,4 @@
+# Ignore built packages, and src directories
+*.pkg.tar.zst
+pkg/
+src/
