@@ -1,0 +1,35 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+# Modified: 2021-04-22
+
+# Use `pacman -Sg lxqt` to obtain the list of group members
+
+pkgname=tusk-lxqt-meta
+pkgver=0.16.0
+pkgrel=1
+pkgdesc='Meta-package to install the members of the lxqt group'
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=(
+    lximage-qt
+    lxqt-about
+    lxqt-admin
+    lxqt-archiver
+    lxqt-config
+    lxqt-globalkeys
+    lxqt-notificationd
+    lxqt-openssh-askpass
+    lxqt-panel
+    lxqt-policykit
+    lxqt-powermanagement
+    lxqt-qtplugin
+    lxqt-runner
+    lxqt-session
+    lxqt-sudo
+    lxqt-themes
+    obconf-qt
+    openbox
+    pcmanfm-qt
+    qterminal
+    screengrab
+)
