@@ -1,10 +1,10 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Created: 2021-04-21
+# Modified: 2021-04-23
 
-# Based on Arch-Extra kde-applications-meta 20.12-4
+# Based on Arch-Extra kde-applications-meta 21.04-1
 
 pkgname='tusk-kde-applications-meta'
-pkgver=20.12
+pkgver=21.04
 pkgrel=1
 pkgdesc='Meta-package for KDE applications'
 url='https://github.com/tusktenon/arch-linux'
@@ -13,6 +13,7 @@ license=('GPL')
 depends=(
     ark
     dolphin
+    dolphin-plugins
     gwenview
     kcalc
     kcharselect
@@ -22,6 +23,7 @@ depends=(
     kfind
     khelpcenter
     kmag
+    kmix
     konsole
     kompare
     ksystemlog
@@ -38,6 +40,7 @@ depends=(
     kde-cli-tools
     keditbookmarks
     kdegraphics-thumbnailers
+    kio-extras
     # kipi-plugins
     markdownpart
     packagekit-qt5
