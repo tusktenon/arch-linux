@@ -1,9 +1,10 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Created: 2021-05-02
+# Modified: 2021-05-22
+# Distributions: Arch, Artix
 
 pkgname=tusk-cli-common-meta
 pkgver=1
-pkgrel=1
+pkgrel=2
 pkgdesc='Meta-package to install some essential console-based packages'
 url='https://github.com/tusktenon/arch-linux'
 arch=('any')
@@ -11,6 +12,7 @@ license=('GPL')
 depends=(
     git
     github-cli
+    gnupg
     htop
     man-db
     man-pages
