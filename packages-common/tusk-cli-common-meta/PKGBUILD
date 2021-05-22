@@ -19,9 +19,9 @@ depends=(
     nano
     neofetch
     neovim
-    networkmanager
     openssh
     pass
     sudo
     texinfo
+    tree
 )
