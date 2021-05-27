@@ -1,0 +1,36 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+# Created: 2021-05-22
+# Distributions: Arch, Artix
+
+pkgname=tusk-fonts-meta
+pkgver=1
+pkgrel=1
+pkgdesc='Meta-package to install free fonts'
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=(
+    # Families
+    ttf-ibm-plex
+    ttf-linux-libertine
+
+    # Monospace
+    adobe-source-code-pro-fonts
+    ttf-anonymous-pro
+    ttf-fira-code
+    ttf-hack
+    ttc-iosevka
+    ttf-jetbrains-mono
+    ttf-roboto-mono
+
+    # Sans
+    adobe-source-sans-pro-fonts
+    inter-font
+    ttf-lato
+    ttf-opensans
+    ttf-roboto
+
+    # Serif
+    adobe-source-serif-pro-fonts
+    gentium-plus-font
+)

@@ -1,0 +1,48 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+# Created: 2021-05-22
+# Distributions: Arch, Artix
+
+pkgname=tusk-xorg-desktop-meta
+pkgver=1
+pkgrel=1
+pkgdesc='Meta-package to install a custom X desktop environment'
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=(
+    # Xorg and basic X utilities
+    xorg-server
+    xorg-init
+    xorg-xprop
+    xorg-xrandr
+    fontconfig
+    xterm
+
+    # GTK
+    gtk3
+    lxappearance-gtk3
+    #dconf-editor
+    arc-solid-gtk-theme
+    breeze-gtk
+    materia-gtk-theme
+
+    # Qt
+    qt5-base
+    #qt5-svg
+    qt5ct
+    kvantum-qt5
+
+    # Cursors and icons
+    hicolor-icon-theme
+    papirus-icon-theme
+
+    # Common packages
+    dmenu
+    feh
+    rofi
+
+    # Window managers
+    i3-gaps
+    i3lock
+    #qtile
+)

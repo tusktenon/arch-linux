@@ -1,0 +1,19 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+# Created: 2021-05-22
+# Distributions: Arch, Artix
+
+pkgname=tusk-xorg-apps-meta
+pkgver=1
+pkgrel=1
+pkgdesc='Meta-package to install X applications'
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=(
+    alacritty   # terminal emulator
+    ffmpeg      # youtube-dl dependency
+    firefox     # web browser
+    sakura      # terminal emulator
+    youtube-dl  # video downloader
+    zathura     # document viewer
+)

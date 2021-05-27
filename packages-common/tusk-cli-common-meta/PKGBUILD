@@ -5,7 +5,7 @@
 pkgname=tusk-cli-common-meta
 pkgver=1
 pkgrel=2
-pkgdesc='Meta-package to install some essential console-based packages'
+pkgdesc='Meta-package to install console-based packages'
 url='https://github.com/tusktenon/arch-linux'
 arch=('any')
 license=('GPL')
@@ -21,7 +21,11 @@ depends=(
     neovim
     openssh
     pass
+    starship
+    stow
     sudo
     texinfo
     tree
+    zsh
+    zsh-syntax-highlighting
 )

@@ -1,0 +1,20 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+# Created: 2021-05-22
+# Distributions: Arch, Artix
+
+pkgname=tusk-devel-meta
+pkgver=1
+pkgrel=1
+pkgdesc='Compilers, languages and other development tools'
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=(
+    gcc
+    gdb
+    go          # Needed by the Vim Hekokinase plugin
+    python
+    sqlite
+    sqlitebrowser
+    valgrind
+)
