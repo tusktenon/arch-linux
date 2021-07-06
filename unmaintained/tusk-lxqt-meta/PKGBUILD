@@ -1,16 +1,20 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Modified: 2021-04-22
-
-# Use `pacman -Sg lxqt` to obtain the list of group members
+# Modified: 2021-06-24
 
 pkgname=tusk-lxqt-meta
-pkgver=0.16.0
+pkgver=0.17.0
 pkgrel=1
-pkgdesc='Meta-package to install the members of the lxqt group'
+pkgdesc='Meta-package to install the LXQt desktop'
 url='https://github.com/tusktenon/arch-linux'
 arch=('any')
 license=('GPL')
 depends=(
+    # Qt
+    breeze-icons
+    kvantum-qt5
+    #qt5ct
+
+    # Arch's `lxqt` group
     lximage-qt
     lxqt-about
     lxqt-admin
@@ -32,4 +36,7 @@ depends=(
     pcmanfm-qt
     qterminal
     screengrab
+    
+    # PCManFM-Qt optional dependency
+    gvfs
 )

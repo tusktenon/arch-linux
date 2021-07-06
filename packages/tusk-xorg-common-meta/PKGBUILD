@@ -1,0 +1,49 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+# Modified: 2021-06-16
+
+pkgname=tusk-xorg-common-meta
+pkgver=1
+pkgrel=1
+pkgdesc='Meta-package to install common applications for an X-based custom desktop environment'
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=(
+    # Xorg and basic utilities
+    xorg-server
+    xorg-xinit
+    xorg-xprop
+    xorg-xrandr
+    fontconfig
+    mesa-demos
+    xdg-user-dirs
+    xterm
+
+    # GTK
+    gtk3
+    #lxappearance-gtk3
+    #dconf-editor
+    arc-solid-gtk-theme
+    #breeze-gtk
+    #materia-gtk-theme
+
+    # Qt
+    #qt5-base
+    #qt5-svg
+    #qt5ct
+    #kvantum-qt5
+
+    # Cursors and icons
+    hicolor-icon-theme
+    papirus-icon-theme
+
+    # Applications
+    alacritty   # terminal emulator
+    feh         # image viewer (sets wallpaper)
+    ffmpeg      # youtube-dl dependency
+    firefox     # web browser
+    rofi        # app launcher
+    youtube-dl  # video downloader
+    zathura     # document viewer
+
+)

@@ -11,20 +11,20 @@ license=('GPL')
 depends=(
     bat
     git
-    #github-cli
+    github-cli
     gnupg
     htop
     man-db
     man-pages
     nano
-    neofetch
+    #neofetch
     neovim
     nftables
     openssh
     #pass
     python-pynvim
     rsync
-    starship
+    #starship
     stow
     sudo
     texinfo

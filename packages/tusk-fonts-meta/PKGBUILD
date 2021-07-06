@@ -16,8 +16,8 @@ depends=(
 
     # Monospace
     adobe-source-code-pro-fonts
-    ttf-anonymous-pro
-    ttf-fira-code
+    #ttf-anonymous-pro
+    #ttf-fira-code
     ttf-hack
     ttc-iosevka
     ttf-jetbrains-mono
