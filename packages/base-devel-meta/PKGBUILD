@@ -4,7 +4,7 @@
 
 # Use `pacman -Sg base-devel` to obtain a list of group members
 
-pkgname=tusk-base-devel-meta
+pkgname=base-devel-meta
 pkgver=1
 pkgrel=1
 pkgdesc='Meta-package to install the members of the base-devel group'

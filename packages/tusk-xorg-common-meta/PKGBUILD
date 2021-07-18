@@ -11,12 +11,14 @@ license=('GPL')
 depends=(
     # Xorg and basic utilities
     xorg-server
+    xorg-xdpyinfo
     xorg-xinit
     xorg-xprop
     xorg-xrandr
     fontconfig
     mesa-demos
     xdg-user-dirs
+    xclip
     xterm
 
     # GTK
@@ -45,5 +47,6 @@ depends=(
     rofi        # app launcher
     youtube-dl  # video downloader
     zathura     # document viewer
+    zathura-pdf-poppler  # PDF support for Zathura
 
 )

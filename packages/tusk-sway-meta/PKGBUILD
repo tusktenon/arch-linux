@@ -1,0 +1,38 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+# Modified: 2021-07-17
+
+pkgname=tusk-sway-meta
+pkgver=1
+pkgrel=1
+pkgdesc='Meta-package to install a Sway-based custom desktop environment'
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=(
+    alacritty 
+    arc-solid-gtk-theme 
+    fontconfig
+    gtk3
+    hicolor-icon-theme 
+    imv
+    mesa
+    otf-font-awesome
+    papirus-icon-theme
+    polkit
+    rofi-dmenu              # AUR
+    rofi-lbonn-wayland-git  # AUR
+    swaybg
+    swayidle
+    swaylock
+    waybar
+    wl-clipboard
+    xdg-user-dirs
+    zathura
+    zathura-pdf-poppler     # alt. zathura-pdf-mupdf
+)
+optdepends=(
+    'sway: tiling Wayland compositor'
+    'sway-borders-git: fork of Sway with additional graphical features (AUR)'
+    'dunst: notification daemon'
+    'mako: notification daemon'
+)

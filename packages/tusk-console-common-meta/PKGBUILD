@@ -16,20 +16,17 @@ depends=(
     htop
     man-db
     man-pages
-    nano
-    #neofetch
     neovim
     nftables
     openssh
-    #pass
     python-pynvim
     rsync
-    #starship
     stow
     sudo
     texinfo
     trash-cli
     tree
+    which
     zsh
     zsh-syntax-highlighting
 )
