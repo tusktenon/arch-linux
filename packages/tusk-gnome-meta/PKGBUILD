@@ -1,16 +1,15 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Modified: 2021-07-17
-
-# See Arch's `gnome` and `gnome-extra` groups
+# Modified: 2021-07-24
 
 pkgname=tusk-gnome-meta
 pkgver=1
-pkgrel=1
+pkgrel=2
 pkgdesc='Meta-package to install the GNOME desktop'
 url='https://github.com/tusktenon/arch-linux'
 arch=('any')
 license=('GPL')
 depends=(
+    # From Arch's `gnome` and `gnome-extra` groups
     baobab
     dconf-editor
     #devhelp
@@ -66,4 +65,7 @@ depends=(
     #totem
     xdg-user-dirs-gtk
     yelp
+
+    # Additional packages
+    chrome-gnome-shell  # AUR
 )

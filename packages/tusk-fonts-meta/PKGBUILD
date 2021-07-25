@@ -1,5 +1,5 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Modified: 2021-06-16
+# Modified: 2021-07-22
 
 pkgname=tusk-fonts-meta
 pkgver=1
@@ -10,27 +10,27 @@ arch=('any')
 license=('GPL')
 depends=(
     # Families
-    libertinus-font
-    ttf-dejavu
     ttf-ibm-plex
+    noto-fonts
+    noto-fonts-extra
 
     # Monospace
     adobe-source-code-pro-fonts
-    #ttf-anonymous-pro
-    #ttf-fira-code
-    ttf-hack
     ttc-iosevka
+    ttf-fira-code
+    ttf-hack
     ttf-jetbrains-mono
     ttf-roboto-mono
 
     # Sans
-    adobe-source-sans-pro-fonts
+    adobe-source-sans-fonts
+    cantarell-fonts
     inter-font
     ttf-lato
     ttf-opensans
     ttf-roboto
 
     # Serif
-    adobe-source-serif-pro-fonts
+    adobe-source-serif-fonts
     gentium-plus-font
 )
