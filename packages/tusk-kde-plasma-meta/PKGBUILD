@@ -1,43 +1,52 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Modified: 2021-04-21
-
-# Based on Arch-Extra plasma-meta 5.21-2
+# Modified: 2021-07-26
 
 pkgname=tusk-kde-plasma-meta
-pkgver=5.21
+pkgver=5.22
 pkgrel=1
-pkgdesc='Meta-package to install KDE Plasma'
+pkgdesc='Meta-package to install the KDE Plasma desktop'
+url='https://github.com/tusktenon/arch-linux'
 arch=('any')
 license=('GPL')
-url='https://github.com/tusktenon/arch-linux'
 depends=(
+    # X server
+    xorg-server
+    xorg-xinit
+    fontconfig
+    mesa
+    xclip
+
+    # GTK
+    gtk3
+    breeze-gtk
+
+    # From Arch's `plasma-meta` package
     bluedevil
+    discover
     drkonqi
     kde-gtk-config
     kdeplasma-addons
+    kgamma5
     khotkeys
     kinfocenter
     kscreen
     ksshaskpass
+    kwallet-pam
+    #kwayland-integration
     kwrited
     oxygen
     plasma-browser-integration
     plasma-desktop
     plasma-disks
-    plasma-firewall
+    #plasma-firewall
     plasma-nm
     plasma-workspace-wallpapers
     plasma-pa
-    plasma-sdk
+    #plasma-sdk
     plasma-systemmonitor
-    # plasma-thunderbolt
+    plasma-thunderbolt
     plasma-vault
-    kwayland-integration
-    kwallet-pam
-    kgamma5
-    # sddm-kcm
-    breeze-gtk
     powerdevil
-    discover
+    #sddm-kcm
     xdg-desktop-portal-kde
 )
