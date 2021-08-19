@@ -1,37 +1,82 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Modified: 2021-06-29
+# Modified: 2021-08-01
 
 pkgname=tusk-xfce4-meta
-pkgver=4.16.0
-pkgrel=2
+pkgver=2021.08
+pkgrel=1
 pkgdesc='Meta-package to install the Xfce desktop'
 url='https://github.com/tusktenon/arch-linux'
 arch=('any')
 license=('GPL')
 depends=(
-    # From Arch's `xfce4` group
+    # X server
+    xorg-server
+    xorg-xdpyinfo
+    xorg-xinit
+    xorg-xprop
+    fontconfig
+    mesa
+    mesa-demos
+    xclip
+    xdg-utils
+
+    # GTK, themes and icons
+    gtk3
+    arc-gtk-theme
+    hicolor-icon-theme
+    papirus-icon-theme
+
+    # Xfce desktop
     exo
+    file-roller
     garcon
+    gvfs
+    mousepad
+    #parole
+    ristretto
     thunar
+    thunar-archive-plugin
+    thunar-media-tags-plugin
     thunar-volman
     tumbler
+    #xfburn
     xfce4-appfinder
+    xfce4-dict
+    xfce4-notifyd
     xfce4-panel
     xfce4-power-manager
+    xfce4-screensaver
+    xfce4-screenshooter
     xfce4-session
     xfce4-settings
+    xfce4-taskmanager
     xfce4-terminal
     xfconf
     xfdesktop
     xfwm4
 
-    # Thunar optional dependencies
-    file-roller
-    gvfs
-    thunar-archive-plugin
-    thunar-media-tags-plugin
+    # Xfce panel plugins
+    xfce4-battery-plugin
+    xfce4-clipman-plugin
+    xfce4-datetime-plugin
+    xfce4-mount-plugin
+    xfce4-mpc-plugin
+    xfce4-pulseaudio-plugin
+    xfce4-sensors-plugin
+    xfce4-smartbookmark-plugin
+    xfce4-systemload-plugin
+    xfce4-timer-plugin
+    xfce4-wavelan-plugin
+    xfce4-weather-plugin
+    xfce4-whiskermenu-plugin
 
     # Applications
-    mousepad
-    ristretto
+    1password       # AUR
+    alacritty
+    #celluloid
+    firefox
+    gnucash
+    gnucash-docs
+    thunderbird
+    xreader
 )

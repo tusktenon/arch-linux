@@ -1,8 +1,8 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Modified: 2021-07-25
+# Modified: 2021-08-01
 
 pkgname=tusk-cinnamon-meta
-pkgver=5.0
+pkgver=2021.08
 pkgrel=1
 pkgdesc='Meta-package to install the Cinnamon desktop'
 url='https://github.com/tusktenon/arch-linux'
@@ -11,10 +11,14 @@ license=('GPL')
 depends=(
     # X server
     xorg-server
+    xorg-xdpyinfo
     xorg-xinit
+    xorg-xprop
     fontconfig
     mesa
+    mesa-demos
     xclip
+    xdg-utils
 
     # GTK, themes and icons
     gtk3
@@ -26,21 +30,28 @@ depends=(
     blueberry
     cinnamon
     gnome-keyring
+    gnome-screenshot
+    gnome-terminal
     libsecret
+    #pix             # AUR
+    seahorse
     system-config-printer
+    xed
+    xreader
+    xviewer         # AUR
 
     # Nemo extensions
     nemo-fileroller
     #nemo-compare    # AUR
     nemo-preview
-    nemo-terminal
+    #nemo-terminal
 
     # Applications
+    1password       # AUR
+    alacritty
     #celluloid
-    gnome-terminal
-    #pix         # AUR
-    #seahorse
-    xed
-    xreader
-    #xviewer     # AUR
+    firefox
+    gnucash
+    gnucash-docs
+    thunderbird
 )

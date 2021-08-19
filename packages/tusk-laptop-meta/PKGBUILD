@@ -1,0 +1,43 @@
+# Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
+# Modified: 2021-08-01
+
+pkgname=tusk-laptop-meta
+pkgver=2021.08
+pkgrel=1
+pkgdesc='Meta-package for a custom Arch Linux installation on an LG gram laptop'
+url='https://github.com/tusktenon/arch-linux'
+arch=('any')
+license=('GPL')
+depends=(
+    # Base and networking
+    base
+    brightnessctl
+    dosfstools
+    efibootmgr
+    ethtool
+    intel-ucode
+    iwd
+    linux
+    linux-firmware
+    lvm2
+    #networkmanager
+    nftables
+    pipewire
+    pipewire-alsa
+    pipewire-pulse
+    reflector
+    smartmontools
+    sof-firmware
+    tlp
+
+    # Boot loader
+    grub
+    ntfs-3g
+    os-prober
+
+    # Languages and build tools
+    go
+    meson
+    python
+    rust
+)
