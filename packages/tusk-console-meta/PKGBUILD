@@ -1,8 +1,8 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Modified: 2021-06-16
+# Modified: 2021-08-31
 
 pkgname=tusk-console-meta
-pkgver=1
+pkgver=2021.08
 pkgrel=1
 pkgdesc='Meta-package to install essential terminal-based applications'
 url='https://github.com/tusktenon/arch-linux'
@@ -20,6 +20,7 @@ depends=(
     openssh
     python-pynvim
     rsync
+    starship
     stow
     sudo
     texinfo

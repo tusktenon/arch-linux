@@ -1,9 +1,9 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Modified: 2021-08-01
+# Modified: 2021-08-31
 
 pkgname=tusk-cinnamon-meta
 pkgver=2021.08
-pkgrel=1
+pkgrel=2
 pkgdesc='Meta-package to install the Cinnamon desktop'
 url='https://github.com/tusktenon/arch-linux'
 arch=('any')
@@ -20,8 +20,10 @@ depends=(
     xclip
     xdg-utils
 
-    # GTK, themes and icons
+    # GTK, Qt, themes and icons
     gtk3
+    qt5-base
+    qt5-svg
     arc-gtk-theme
     hicolor-icon-theme
     papirus-icon-theme
@@ -49,9 +51,20 @@ depends=(
     # Applications
     1password       # AUR
     alacritty
-    #celluloid
+    backintime      # AUR
+    celluloid
+    clipgrab
+    emacs
     firefox
+    font-manager    # AUR
+    gcolor3
     gnucash
     gnucash-docs
+    meld            # Optional for backintime
+    mpv
+    python-keyring  # Optional for backintime
     thunderbird
+    ulauncher       # AUR
+    wmctrl          # Needed for ulauncher (?)
+    youtube-dl
 )
