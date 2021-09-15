@@ -1,9 +1,9 @@
 # Maintainer: Dan Murphy <dc.murphy@utoronto.ca>
-# Modified: 2021-08-31
+# Modified: 2021-09-15
 
 pkgname=tusk-cinnamon-meta
-pkgver=2021.08
-pkgrel=2
+pkgver=2021.09
+pkgrel=1
 pkgdesc='Meta-package to install the Cinnamon desktop'
 url='https://github.com/tusktenon/arch-linux'
 arch=('any')
@@ -62,6 +62,7 @@ depends=(
     gnucash-docs
     meld            # Optional for backintime
     mpv
+    pandoc
     python-keyring  # Optional for backintime
     thunderbird
     ulauncher       # AUR
